@@ -1,0 +1,151 @@
+OMPL version 
+Experiment 34D_pr2_feasible
+0 experiment properties
+Running on foraiur
+Starting at 2020-11-02 08:54:54
+<<<|
+Properties of the state space 'CompoundSpace15'
+  - signature: 10 0 34 4 3 1 2 2 1 1 31 
+  - dimension: 34
+  - extent: 32.2202
+  - sanity checks for state space passed
+  - probability of valid states: 0.32
+  - average length of a valid motion: 5.6507
+  - average number of samples drawn per second: sampleUniform()=2.17457e+06 sampleUniformNear()=2.07237e+06 sampleGaussian()=521820
+Settings for the state space 'CompoundSpace15'
+  - state validity check resolution: 1%
+  - valid segment count factor: 1
+  - state space:
+Compound state space 'CompoundSpace15' of dimension 34 [
+Compound state space 'SE2CompoundSpace11' of dimension 3 (locked) [
+Real vector state space 'RealVectorSpace12' of dimension 2 with bounds: 
+  - min: -4 -4 
+  - max: 4 4 
+ of weight 1
+SO2 state space 'SO2Space13'
+ of weight 0.5
+]
+Registered projections:
+  - <default>
+Projection of dimension 2
+Cell sizes (computed defaults): [0.4 0.4]
+ of weight 1
+Real vector state space 'RealVectorSpace14' of dimension 31 with bounds: 
+  - min: 0 -3.007 -0.471238 -0.714602 -0.5236 -0.8 -2.3213 -3.14 -2.18 -3.14 0 0 -0.1 -3.14 0 0 0 -0.7854 -2.2854 -0.5236 -3.9 -2.3213 -3.14 -2.18 -3.14 -0.548 0 -0.1 -3.14 -0.548 0 
+  - max: 0.33 3.007 1.39626 2.2854 1.3963 3.9 0 3.14 0 3.14 0.548 0.548 0.1 3.14 0.548 0.548 0.09 1.48353 0.714602 1.3963 0.8 0 3.14 0 3.14 0 0.548 0.1 3.14 0 0.548 
+ of weight 1
+]
+No registered projections
+
+Declared parameters:
+longest_valid_segment_fraction = 0.01
+valid_segment_count_factor = 1
+Valid state sampler named uniform with parameters:
+nr_attempts = 100
+Planner RRTConnect specs:
+Multithreaded:                 No
+Reports approximate solutions: No
+Can optimize solutions:        No
+Aware of the following parameters: intermediate_states range
+Declared parameters for planner RRTConnect:
+intermediate_states = 0
+range = 6.44403
+Start states:
+Compound state [
+Compound state [
+RealVectorState [3 -3]
+SO2State [1.57]
+]
+RealVectorState [0 0 0 0 0 0 0 0 0 0 0.08 0 0 0 0.06 0 0 0 0 0 0 0 0 0 0 -0.16 0 0 0 -0.08 0]
+]
+Goal state, threshold = 0.1, memory address = 0x25487a0, state = 
+Compound state [
+Compound state [
+RealVectorState [-3 2]
+SO2State [3.14]
+]
+RealVectorState [0 0 0 0.78 0 1.22 -1.4 -0.48 -0.86 1.58 0.42 0 0 0 0.52 0 0 0 -0.34 0.12 -1.18 -1.5 0.16 -0.14 -0.46 -0.548 0 0 0 -0.528 0]
+]
+Optimization Objective: Path Length @0x2548ea0
+Optimization Threshold: inf
+Average state cost: 0
+There are 0 solutions
+
+Properties of benchmarked planners:
+Planner SMLR specs:
+Multithreaded:                 No
+Reports approximate solutions: No
+Can optimize solutions:        No
+Aware of the following parameters:
+|>>>
+<<<|
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    2
+Core(s) per socket:    2
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 78
+Model name:            Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+Stepping:              3
+CPU MHz:               1408.670
+CPU max MHz:           3100,0000
+CPU min MHz:           400,0000
+BogoMIPS:              5184.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              4096K
+NUMA node0 CPU(s):     0-3
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+|>>>
+18439125005367616387 is the random seed
+60 seconds per run
+100000 MB per run
+10 runs per planner
+130.585 seconds spent to collect the data
+1 enum type
+status|Unknown status|Invalid start|Invalid goal|Unrecognized goal type|Timeout|Approximate solution|Exact solution|Crash|Unknown status|Unknown status
+1 planners
+geometric_SMLR
+2 common properties
+longest_valid_segment_fraction = 0.01
+valid_segment_count_factor = 1
+19 properties for each run
+approximate solution BOOLEAN
+correct solution BOOLEAN
+correct solution strict BOOLEAN
+graph motions INTEGER
+graph states INTEGER
+memory REAL
+solution clearance REAL
+solution difference REAL
+solution length REAL
+solution segments INTEGER
+solution smoothness REAL
+solved BOOLEAN
+status ENUM
+stratification level0 dimension INTEGER
+stratification level0 feasible nodes INTEGER
+stratification level0 nodes INTEGER
+stratification levels INTEGER
+time REAL
+valid segment fraction REAL
+10 runs
+0; 1; 1; 175; 174; 35.2773; 0.0551936; 0; 140.392; 75; 54.2457; 1; 6; 34; 174; 174; 1; 2.85334; 0.945055; 
+; ; ; 98; 87; 35.2773; ; ; ; ; ; 0; 4; 34; 87; 87; 1; 61.0268; 0.575331; 
+0; 1; 1; 181; 181; 35.2773; 0.0533854; 0; 145.523; 75; 48.8648; 1; 6; 34; 181; 181; 1; 3.21496; 0.756098; 
+0; 1; 1; 287; 287; 35.2773; 0.0542456; 0; 203.21; 108; 80.9473; 1; 6; 34; 287; 287; 1; 4.21413; 0.757143; 
+0; 1; 1; 195; 192; 35.2773; 0.0565877; 0; 122.818; 64; 48.4818; 1; 6; 34; 192; 192; 1; 2.30734; 0.960526; 
+0; 1; 1; 237; 236; 35.2773; 0.0564779; 0; 193.147; 104; 80.1899; 1; 6; 34; 236; 236; 1; 3.65229; 0.936508; 
+0; 1; 1; 160; 161; 35.2773; 0.0551971; 0; 140.014; 72; 48.0959; 1; 6; 34; 161; 161; 1; 2.93177; 0.957447; 
+0; 1; 1; 171; 171; 35.2773; 0.0560323; 0; 138.307; 73; 53.0953; 1; 6; 34; 171; 171; 1; 3.77413; 0.89916; 
+0; 1; 1; 247; 245; 35.2773; 0.0533062; 0; 163.029; 87; 63.1919; 1; 6; 34; 245; 245; 1; 3.9345; 0.825688; 
+0; 1; 1; 116; 116; 35.2773; 0.0558016; 0; 102.38; 49; 32.8713; 1; 6; 34; 116; 116; 1; 5.63945; 0.194245; 
+.

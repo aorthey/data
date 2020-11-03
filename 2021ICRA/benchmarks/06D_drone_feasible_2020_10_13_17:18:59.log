@@ -1,0 +1,233 @@
+OMPL version 
+Experiment 06D_drone_feasible
+0 experiment properties
+Running on foraiur
+Starting at 2020-10-13 17:18:59
+<<<|
+Properties of the state space 'SE3CompoundSpace4'
+  - signature: 6 5 6 1 3 3 3 
+  - dimension: 6
+  - extent: 9.69483
+  - sanity checks for state space passed
+  - probability of valid states: 0.936
+  - average length of a valid motion: 3.16695
+  - average number of samples drawn per second: sampleUniform()=875654 sampleUniformNear()=410862 sampleGaussian()=618365
+Settings for the state space 'SE3CompoundSpace4'
+  - state validity check resolution: 1%
+  - valid segment count factor: 1
+  - state space:
+Compound state space 'SE3CompoundSpace4' of dimension 6 (locked) [
+Real vector state space 'RealVectorSpace5' of dimension 3 with bounds: 
+  - min: -2.5 -2.5 0 
+  - max: 2.5 2.5 4 
+ of weight 1
+SO(3) state space 'SO3Space6' (represented using quaternions)
+ of weight 1
+]
+Registered projections:
+  - <default>
+Projection of dimension 3
+Cell sizes (computed defaults): [0.25 0.25 0.2]
+
+Declared parameters:
+longest_valid_segment_fraction = 0.01
+projection.cellsize.0 = 0.25
+projection.cellsize.1 = 0.25
+projection.cellsize.2 = 0.2
+projection.cellsize_factor = 0
+valid_segment_count_factor = 1
+Valid state sampler named uniform with parameters:
+nr_attempts = 100
+Planner LBKPIECE1 specs:
+Multithreaded:                 No
+Reports approximate solutions: No
+Can optimize solutions:        No
+Aware of the following parameters: border_fraction min_valid_path_fraction range
+Declared parameters for planner LBKPIECE1:
+border_fraction = 0.9
+min_valid_path_fraction = 0.5
+range = 1.93897
+Start states:
+Compound state [
+RealVectorState [1 -2 1.3]
+SO3State [0 0 0 1]
+]
+Goal state, threshold = 0.1, memory address = 0x1d2afc0, state = 
+Compound state [
+RealVectorState [-2 2 0.3]
+SO3State [0 0 0 1]
+]
+Optimization Objective: Path Length @0x1d26c50
+Optimization Threshold: inf
+Average state cost: 0
+There are 0 solutions
+
+Properties of benchmarked planners:
+Planner SPARS specs:
+Multithreaded:                 Yes
+Reports approximate solutions: No
+Can optimize solutions:        Yes
+Aware of the following parameters: dense_delta_fraction max_failures sparse_delta_fraction stretch_factor
+Planner SPARStwo specs:
+Multithreaded:                 Yes
+Reports approximate solutions: No
+Can optimize solutions:        Yes
+Aware of the following parameters: dense_delta_fraction max_failures sparse_delta_fraction stretch_factor
+|>>>
+<<<|
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    2
+Core(s) per socket:    2
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 78
+Model name:            Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+Stepping:              3
+CPU MHz:               2406.591
+CPU max MHz:           3100,0000
+CPU min MHz:           400,0000
+BogoMIPS:              5184.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              4096K
+NUMA node0 CPU(s):     0-3
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+|>>>
+18439123304011917017 is the random seed
+60 seconds per run
+100000 MB per run
+10 runs per planner
+5.54518 seconds spent to collect the data
+1 enum type
+status|Unknown status|Invalid start|Invalid goal|Unrecognized goal type|Timeout|Approximate solution|Exact solution|Crash|Unknown status|Unknown status
+2 planners
+geometric_SPARS
+10 common properties
+dense_delta_fraction = 0.001
+longest_valid_segment_fraction = 0.01
+max_failures = 1000
+projection.cellsize.0 = 0.25
+projection.cellsize.1 = 0.25
+projection.cellsize.2 = 0.2
+projection.cellsize_factor = 0
+sparse_delta_fraction = 0.25
+stretch_factor = 3
+valid_segment_count_factor = 1
+21 properties for each run
+approximate solution BOOLEAN
+best cost REAL
+correct solution BOOLEAN
+correct solution strict BOOLEAN
+graph motions INTEGER
+graph states INTEGER
+iterations INTEGER
+memory REAL
+solution clearance REAL
+solution difference REAL
+solution length REAL
+solution segments INTEGER
+solution smoothness REAL
+solved BOOLEAN
+status ENUM
+stratification level0 dimension INTEGER
+stratification level0 feasible nodes INTEGER
+stratification level0 nodes INTEGER
+stratification levels INTEGER
+time REAL
+valid segment fraction REAL
+10 runs
+0; 28.805645; 1; 1; 112; 48; 113; 50.8555; 0.515996; 0; 28.8056; 14; 8.7882; 1; 6; 6; 48; 48; 1; 0.425403; 0.83448; 
+0; 11.693009; 1; 1; 120; 46; 141; 50.8672; 0.633448; 0; 11.693; 6; 3.03881; 1; 6; 6; 46; 46; 1; 0.481611; 0.899568; 
+0; 16.802074; 1; 1; 152; 48; 165; 50.8711; 0.760956; 0; 16.8021; 8; 4.31276; 1; 6; 6; 48; 48; 1; 0.717344; 0.890794; 
+0; 18.738646; 1; 1; 92; 40; 95; 50.8711; 0.622131; 0; 18.7386; 9; 5.00089; 1; 6; 6; 40; 40; 1; 0.376675; 0.832587; 
+0; 17.564309; 1; 1; 100; 42; 98; 50.8711; 0.876229; 0; 17.5643; 7; 3.86712; 1; 6; 6; 42; 42; 1; 0.344941; 0.814854; 
+0; 24.090236; 1; 1; 80; 41; 71; 50.8711; 0.801765; 0; 24.0902; 12; 6.60253; 1; 6; 6; 41; 41; 1; 0.25249; 0.818979; 
+0; 12.666970; 1; 1; 74; 35; 73; 50.8711; 0.530308; 0; 12.667; 6; 2.40413; 1; 6; 6; 35; 35; 1; 0.225148; 0.862153; 
+0; 21.826388; 1; 1; 74; 37; 70; 50.8711; 0.779413; 0; 21.8264; 11; 3.85478; 1; 6; 6; 37; 37; 1; 0.210516; 0.869822; 
+0; 21.613654; 1; 1; 100; 39; 99; 50.8711; 1.07581; 0; 21.6137; 10; 5.225; 1; 6; 6; 39; 39; 1; 0.321239; 0.856227; 
+0; 17.790956; 1; 1; 116; 48; 135; 50.8711; 1.02819; 0; 17.791; 9; 3.77769; 1; 6; 6; 48; 48; 1; 0.391859; 0.845234; 
+3 progress properties for each run
+best cost REAL
+iterations INTEGER
+time REAL
+10 runs
+inf,14,0.050065,;inf,33,0.100219,;inf,46,0.15034,;inf,61,0.200434,;inf,72,0.250552,;inf,85,0.300711,;inf,98,0.351289,;inf,110,0.401385,;
+inf,26,0.0500619,;inf,42,0.100155,;inf,57,0.15029,;inf,72,0.200395,;inf,86,0.250502,;inf,100,0.300608,;inf,115,0.350755,;inf,126,0.400849,;inf,133,0.450937,;
+inf,24,0.0500633,;inf,34,0.100997,;inf,43,0.151091,;inf,56,0.201182,;inf,67,0.251426,;inf,78,0.301547,;inf,89,0.351663,;inf,100,0.401796,;inf,107,0.451901,;inf,117,0.502023,;inf,129,0.55213,;inf,141,0.602269,;inf,152,0.652392,;inf,163,0.702535,;
+inf,25,0.0500565,;inf,39,0.10017,;inf,54,0.150255,;inf,66,0.200339,;inf,77,0.25046,;inf,85,0.300563,;inf,92,0.350652,;
+inf,29,0.0500596,;inf,47,0.100151,;inf,54,0.150247,;inf,64,0.200344,;inf,75,0.250525,;inf,87,0.300607,;
+inf,26,0.0500871,;inf,39,0.100232,;inf,47,0.150356,;inf,58,0.200469,;inf,71,0.250576,;
+inf,25,0.050058,;inf,43,0.100145,;inf,55,0.150231,;inf,67,0.200325,;
+inf,24,0.0500575,;inf,41,0.100172,;inf,55,0.150278,;inf,69,0.200388,;
+inf,26,0.050064,;inf,41,0.100159,;inf,56,0.150257,;inf,70,0.200384,;inf,83,0.250506,;inf,94,0.300607,;
+inf,26,0.0500606,;inf,44,0.100188,;inf,61,0.150302,;inf,76,0.200392,;inf,91,0.250519,;inf,107,0.300635,;inf,123,0.350759,;
+.
+geometric_SPARStwo
+10 common properties
+dense_delta_fraction = 0.001
+longest_valid_segment_fraction = 0.01
+max_failures = 1000
+projection.cellsize.0 = 0.25
+projection.cellsize.1 = 0.25
+projection.cellsize.2 = 0.2
+projection.cellsize_factor = 0
+sparse_delta_fraction = 0.25
+stretch_factor = 3
+valid_segment_count_factor = 1
+21 properties for each run
+approximate solution BOOLEAN
+best cost REAL
+correct solution BOOLEAN
+correct solution strict BOOLEAN
+graph motions INTEGER
+graph states INTEGER
+iterations INTEGER
+memory REAL
+solution clearance REAL
+solution difference REAL
+solution length REAL
+solution segments INTEGER
+solution smoothness REAL
+solved BOOLEAN
+status ENUM
+stratification level0 dimension INTEGER
+stratification level0 feasible nodes INTEGER
+stratification level0 nodes INTEGER
+stratification levels INTEGER
+time REAL
+valid segment fraction REAL
+10 runs
+0; 37.463042; 1; 1; 78; 34; 89; 50.8711; 0.834485; 0; 37.463; 18; 7.57577; 1; 6; 6; 34; 34; 1; 0.111026; 0.967383; 
+0; 25.998334; 1; 1; 66; 36; 74; 50.8711; 0.933731; 0; 25.9983; 13; 6.28762; 1; 6; 6; 36; 36; 1; 0.0958151; 0.97; 
+0; 21.029432; 1; 1; 112; 45; 100; 50.8711; 0.726814; 0; 21.0294; 10; 4.56931; 1; 6; 6; 45; 45; 1; 0.122628; 0.955672; 
+0; 16.511999; 1; 1; 116; 44; 130; 50.8711; 0.731478; 0; 16.512; 8; 4.18538; 1; 6; 6; 44; 44; 1; 0.196075; 0.921718; 
+0; 14.653023; 1; 1; 92; 43; 102; 50.8711; 0.727097; 0; 14.653; 8; 3.69213; 1; 6; 6; 43; 43; 1; 0.2074; 0.972166; 
+0; 20.940186; 1; 1; 100; 42; 111; 50.8711; 0.49491; 0; 20.9402; 9; 4.32381; 1; 6; 6; 42; 42; 1; 0.234777; 0.961222; 
+0; 21.714095; 1; 1; 50; 34; 69; 50.8711; 0.545677; 0; 21.7141; 11; 6.41804; 1; 6; 6; 34; 34; 1; 0.107558; 0.988323; 
+0; 24.306207; 1; 1; 158; 50; 167; 50.8711; 0.513068; 0; 24.3062; 11; 6.88808; 1; 6; 6; 50; 50; 1; 0.284867; 0.966792; 
+0; 14.144358; 1; 1; 38; 31; 52; 50.8711; 0.915731; 0; 14.1444; 7; 3.12406; 1; 6; 6; 31; 31; 1; 0.0744393; 0.963605; 
+0; 19.200027; 1; 1; 74; 34; 94; 50.8711; 0.882511; 0; 19.2; 8; 3.01237; 1; 6; 6; 34; 34; 1; 0.169162; 0.980341; 
+3 progress properties for each run
+best cost REAL
+iterations INTEGER
+time REAL
+10 runs
+inf,50,0.0500946,;inf,81,0.10018,;
+inf,38,0.0501014,;
+inf,55,0.0500983,;inf,88,0.100216,;
+inf,39,0.0501002,;inf,70,0.100201,;inf,103,0.150319,;
+inf,41,0.0500651,;inf,69,0.100159,;inf,87,0.150256,;inf,98,0.200352,;
+inf,32,0.0500697,;inf,53,0.10021,;inf,74,0.15031,;inf,95,0.200474,;
+inf,30,0.0500899,;inf,64,0.100205,;
+inf,46,0.0500938,;inf,76,0.100206,;inf,106,0.150318,;inf,126,0.200401,;inf,151,0.250482,;
+inf,35,0.0500655,;
+inf,39,0.0500563,;inf,61,0.100162,;inf,85,0.15028,;
+.
