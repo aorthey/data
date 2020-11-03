@@ -1,0 +1,125 @@
+OMPL version 
+Experiment 37D_ShadowHand_Scissor
+0 experiment properties
+Running on foraiur
+Starting at 2020-09-12 10:46:22
+<<<|
+Properties of the state space 'RealVectorSpace3'
+  - signature: 2 1 31 
+  - dimension: 31
+  - extent: 14.9673
+  - sanity checks for state space passed
+  - probability of valid states: 0.009
+  - average length of a valid motion: 0.588998
+  - average number of samples drawn per second: sampleUniform()=2.26233e+06 sampleUniformNear()=2.31835e+06 sampleGaussian()=529348
+Settings for the state space 'RealVectorSpace3'
+  - state validity check resolution: 0.1%
+  - valid segment count factor: 1
+  - state space:
+Real vector state space 'RealVectorSpace3' of dimension 31 with bounds: 
+  - min: -2.96706 -1.5708 -2.96706 -2.0944 -2.96706 -1.4944 -2.96706 -0.523599 -0.785398 -0.436332 0 0 0 -1.047 0 -0.2618 -0.5237 0 0 -0.436332 0 0 0 -0.436332 0 0 0 -0.436332 0 0 0 
+  - max: 2.96706 1.5708 2.96706 2.0944 2.96706 1.7044 2.96706 0.174533 0.610865 0.436332 1.5708 1.5708 1.5708 1.047 1.309 0.2618 0.5237 1.571 0.698132 0.436332 1.5708 1.5708 1.5708 0.436332 1.5708 1.5708 1.5708 0.436332 1.5708 1.5708 1.5708 
+
+Declared parameters:
+longest_valid_segment_fraction = 0.001
+projection.cellsize.0 = 0.07958
+projection.cellsize.1 = 0.0898869
+projection.cellsize.2 = 0.0959815
+projection.cellsize.3 = 0.0848344
+projection.cellsize_factor = 0
+valid_segment_count_factor = 1
+Valid state sampler named uniform with parameters:
+nr_attempts = 100
+Planner LBKPIECE1 specs:
+Multithreaded:                 No
+Reports approximate solutions: No
+Can optimize solutions:        No
+Aware of the following parameters: border_fraction min_valid_path_fraction range
+Declared parameters for planner LBKPIECE1:
+border_fraction = 0.9
+min_valid_path_fraction = 0.5
+range = 2.99346
+Start states:
+RealVectorState [0 -0.949204 0.18 -0.954395 1.12706 -0.02 -0.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Goal state, threshold = 0.01, memory address = 0x6ef4a30, state = 
+RealVectorState [-0.22 -0.66 0.32 1.26 1.55294 -0.375605 -1.74706 -0.163599 0.36 0 1.0708 0.7108 0.88 0 1.309 0 -0.2837 0.46 0 0 0 0 0.330796 0 0 0 0.55 0 0 0 0.67]
+Optimization Objective: Path Length @0x6f01690
+Optimization Threshold: inf
+Average state cost: 0
+There are 0 solutions
+
+Properties of benchmarked planners:
+Planner QRRTStar specs:
+Multithreaded:                 No
+Reports approximate solutions: No
+Can optimize solutions:        No
+Aware of the following parameters:
+|>>>
+<<<|
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    2
+Core(s) per socket:    2
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 78
+Model name:            Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+Stepping:              3
+CPU MHz:               3000.001
+CPU max MHz:           3100,0000
+CPU min MHz:           400,0000
+BogoMIPS:              5184.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              4096K
+NUMA node0 CPU(s):     0-3
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+|>>>
+18439120602055350976 is the random seed
+60 seconds per run
+100000 MB per run
+10 runs per planner
+601.329 seconds spent to collect the data
+1 enum type
+status|Unknown status|Invalid start|Invalid goal|Unrecognized goal type|Timeout|Approximate solution|Exact solution|Crash|Unknown status|Unknown status
+1 planners
+geometric_QRRTStar
+7 common properties
+longest_valid_segment_fraction = 0.001
+projection.cellsize.0 = 0.07958
+projection.cellsize.1 = 0.0898869
+projection.cellsize.2 = 0.0959815
+projection.cellsize.3 = 0.0848344
+projection.cellsize_factor = 0
+valid_segment_count_factor = 1
+11 properties for each run
+graph motions INTEGER
+graph states INTEGER
+memory REAL
+solved BOOLEAN
+status ENUM
+stratification level0 dimension INTEGER
+stratification level0 feasible nodes INTEGER
+stratification level0 nodes INTEGER
+stratification levels INTEGER
+time REAL
+valid segment fraction REAL
+10 runs
+5586; 5587; 117.98; 0; 4; 31; 5587; 5587; 1; 60.1094; 0; 
+5475; 5476; 121.07; 0; 4; 31; 5476; 5476; 1; 60.0888; 0; 
+5517; 5518; 121.324; 0; 4; 31; 5518; 5518; 1; 60.1014; 0; 
+330; 387; 121.539; 0; 4; 31; 387; 387; 1; 60.0098; 0.000139806; 
+5433; 5434; 121.539; 0; 4; 31; 5434; 5434; 1; 60.0174; 0; 
+5373; 5374; 121.539; 0; 4; 31; 5374; 5374; 1; 60.0198; 0; 
+5438; 5439; 121.539; 0; 4; 31; 5439; 5439; 1; 60.0219; 0; 
+5280; 5281; 121.539; 0; 4; 31; 5281; 5281; 1; 60.0165; 0; 
+5569; 5570; 121.539; 0; 4; 31; 5570; 5570; 1; 60.1066; 0; 
+33; 56; 121.539; 0; 4; 31; 56; 56; 1; 60.0165; 0.000129144; 
+.

@@ -1,0 +1,249 @@
+OMPL version 
+Experiment 06D_Bugtrap
+0 experiment properties
+Running on foraiur
+Starting at 2020-09-12 12:48:02
+<<<|
+Properties of the state space 'SE3CompoundSpace4'
+  - signature: 6 5 6 1 3 3 3 
+  - dimension: 6
+  - extent: 70.5055
+  - sanity checks for state space passed
+  - probability of valid states: 0.576
+  - average length of a valid motion: 10.4002
+  - average number of samples drawn per second: sampleUniform()=4.3133e+06 sampleUniformNear()=4.09912e+06 sampleGaussian()=2.5472e+06
+Settings for the state space 'SE3CompoundSpace4'
+  - state validity check resolution: 1%
+  - valid segment count factor: 1
+  - state space:
+Compound state space 'SE3CompoundSpace4' of dimension 6 (locked) [
+Real vector state space 'RealVectorSpace5' of dimension 3 with bounds: 
+  - min: -12 -12 -40 
+  - max: 12 12 20 
+ of weight 1
+SO(3) state space 'SO3Space6' (represented using quaternions)
+ of weight 1
+]
+Registered projections:
+  - <default>
+Projection of dimension 3
+Cell sizes (computed defaults): [1.2 1.2 3]
+
+Declared parameters:
+longest_valid_segment_fraction = 0.01
+projection.cellsize.0 = 1.2
+projection.cellsize.1 = 1.2
+projection.cellsize.2 = 3
+projection.cellsize_factor = 0
+valid_segment_count_factor = 1
+Valid state sampler named uniform with parameters:
+nr_attempts = 100
+Planner LBKPIECE1 specs:
+Multithreaded:                 No
+Reports approximate solutions: No
+Can optimize solutions:        No
+Aware of the following parameters: border_fraction min_valid_path_fraction range
+Declared parameters for planner LBKPIECE1:
+border_fraction = 0.9
+min_valid_path_fraction = 0.5
+range = 14.1011
+Start states:
+Compound state [
+RealVectorState [-3 0 8]
+SO3State [0 0.706825 0 0.707388]
+]
+Goal state, threshold = 0.01, memory address = 0x148fb80, state = 
+Compound state [
+RealVectorState [-3 1 -20]
+SO3State [0 0.706825 0 0.707388]
+]
+Optimization Objective: Path Length @0x14903f0
+Optimization Threshold: inf
+Average state cost: 0
+There are 0 solutions
+
+Properties of benchmarked planners:
+Planner QRRT specs:
+Multithreaded:                 No
+Reports approximate solutions: No
+Can optimize solutions:        No
+Aware of the following parameters:
+Planner QRRTStar specs:
+Multithreaded:                 No
+Reports approximate solutions: No
+Can optimize solutions:        No
+Aware of the following parameters:
+Planner QMP specs:
+Multithreaded:                 No
+Reports approximate solutions: No
+Can optimize solutions:        No
+Aware of the following parameters:
+Planner QMPStar specs:
+Multithreaded:                 No
+Reports approximate solutions: No
+Can optimize solutions:        No
+Aware of the following parameters:
+|>>>
+<<<|
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    2
+Core(s) per socket:    2
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 78
+Model name:            Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+Stepping:              3
+CPU MHz:               854.702
+CPU max MHz:           3100,0000
+CPU min MHz:           400,0000
+BogoMIPS:              5184.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              4096K
+NUMA node0 CPU(s):     0-3
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+|>>>
+18439120609354884445 is the random seed
+60 seconds per run
+100000 MB per run
+10 runs per planner
+2411.3 seconds spent to collect the data
+1 enum type
+status|Unknown status|Invalid start|Invalid goal|Unrecognized goal type|Timeout|Approximate solution|Exact solution|Crash|Unknown status|Unknown status
+4 planners
+geometric_QRRT
+6 common properties
+longest_valid_segment_fraction = 0.01
+projection.cellsize.0 = 1.2
+projection.cellsize.1 = 1.2
+projection.cellsize.2 = 3
+projection.cellsize_factor = 0
+valid_segment_count_factor = 1
+11 properties for each run
+graph motions INTEGER
+graph states INTEGER
+memory REAL
+solved BOOLEAN
+status ENUM
+stratification level0 dimension INTEGER
+stratification level0 feasible nodes INTEGER
+stratification level0 nodes INTEGER
+stratification levels INTEGER
+time REAL
+valid segment fraction REAL
+10 runs
+73188; 73189; 74.332; 0; 4; 6; 73189; 73189; 1; 60.0144; 0.22072; 
+66281; 66282; 107.52; 0; 4; 6; 66282; 66282; 1; 60.0306; 0.214714; 
+84697; 84698; 109.836; 0; 4; 6; 84698; 84698; 1; 60.0501; 0.228487; 
+66265; 66266; 126.078; 0; 4; 6; 66266; 66266; 1; 60.0413; 0.224688; 
+88201; 88202; 128.914; 0; 4; 6; 88202; 88202; 1; 60.0219; 0.22114; 
+98443; 98444; 133.297; 0; 4; 6; 98444; 98444; 1; 60.0342; 0.229747; 
+74495; 74496; 142.578; 0; 4; 6; 74496; 74496; 1; 60.1013; 0.224293; 
+81953; 81954; 142.578; 0; 4; 6; 81954; 81954; 1; 60.0944; 0.221101; 
+67010; 67011; 142.578; 0; 4; 6; 67011; 67011; 1; 60.0983; 0.223619; 
+84011; 84012; 142.578; 0; 4; 6; 84012; 84012; 1; 60.0127; 0.220475; 
+.
+geometric_QRRTStar
+6 common properties
+longest_valid_segment_fraction = 0.01
+projection.cellsize.0 = 1.2
+projection.cellsize.1 = 1.2
+projection.cellsize.2 = 3
+projection.cellsize_factor = 0
+valid_segment_count_factor = 1
+11 properties for each run
+graph motions INTEGER
+graph states INTEGER
+memory REAL
+solved BOOLEAN
+status ENUM
+stratification level0 dimension INTEGER
+stratification level0 feasible nodes INTEGER
+stratification level0 nodes INTEGER
+stratification levels INTEGER
+time REAL
+valid segment fraction REAL
+10 runs
+28177; 28263; 142.578; 0; 4; 6; 28263; 28263; 1; 60.0871; 0.107153; 
+48761; 48852; 142.578; 0; 4; 6; 48852; 48852; 1; 60.0145; 0.122362; 
+22287; 22290; 142.578; 0; 4; 6; 22290; 22290; 1; 60.0984; 0.407974; 
+42141; 42211; 142.578; 0; 4; 6; 42211; 42211; 1; 60.1104; 0.185643; 
+24817; 24853; 142.578; 0; 4; 6; 24853; 24853; 1; 60.0643; 0.237436; 
+29380; 29387; 142.578; 0; 4; 6; 29387; 29387; 1; 60.0053; 0.349447; 
+24084; 24128; 142.578; 0; 4; 6; 24128; 24128; 1; 60.0049; 0.181988; 
+24125; 24206; 142.578; 0; 4; 6; 24206; 24206; 1; 60.1009; 0.168579; 
+42023; 42158; 142.578; 0; 4; 6; 42158; 42158; 1; 60.0896; 0.105831; 
+24158; 24191; 142.578; 0; 4; 6; 24191; 24191; 1; 60.022; 0.199999; 
+.
+geometric_QMP
+6 common properties
+longest_valid_segment_fraction = 0.01
+projection.cellsize.0 = 1.2
+projection.cellsize.1 = 1.2
+projection.cellsize.2 = 3
+projection.cellsize_factor = 0
+valid_segment_count_factor = 1
+11 properties for each run
+graph motions INTEGER
+graph states INTEGER
+memory REAL
+solved BOOLEAN
+status ENUM
+stratification level0 dimension INTEGER
+stratification level0 feasible nodes INTEGER
+stratification level0 nodes INTEGER
+stratification levels INTEGER
+time REAL
+valid segment fraction REAL
+10 runs
+108163; 30932; 142.754; 0; 4; 6; 30932; 30932; 1; 60.049; 0.520712; 
+59690; 17082; 142.754; 0; 4; 6; 17082; 17082; 1; 60.0497; 0.492873; 
+51579; 14081; 142.754; 0; 4; 6; 14081; 14081; 1; 60.1239; 0.501806; 
+95205; 28541; 142.754; 0; 4; 6; 28541; 28541; 1; 60.0406; 0.493333; 
+53989; 14800; 142.754; 0; 4; 6; 14800; 14800; 1; 60.0175; 0.501052; 
+127093; 34522; 142.754; 0; 4; 6; 34522; 34522; 1; 60.0073; 0.554968; 
+104646; 30676; 142.754; 0; 4; 6; 30676; 30676; 1; 60.0468; 0.505304; 
+89854; 25464; 142.754; 0; 4; 6; 25464; 25464; 1; 60.0772; 0.524422; 
+105499; 29525; 142.754; 0; 4; 6; 29525; 29525; 1; 60.01; 0.532067; 
+57646; 16737; 142.754; 0; 4; 6; 16737; 16737; 1; 60.0467; 0.495707; 
+.
+geometric_QMPStar
+6 common properties
+longest_valid_segment_fraction = 0.01
+projection.cellsize.0 = 1.2
+projection.cellsize.1 = 1.2
+projection.cellsize.2 = 3
+projection.cellsize_factor = 0
+valid_segment_count_factor = 1
+11 properties for each run
+graph motions INTEGER
+graph states INTEGER
+memory REAL
+solved BOOLEAN
+status ENUM
+stratification level0 dimension INTEGER
+stratification level0 feasible nodes INTEGER
+stratification level0 nodes INTEGER
+stratification levels INTEGER
+time REAL
+valid segment fraction REAL
+10 runs
+79786; 10824; 142.754; 0; 4; 6; 10824; 10824; 1; 60.0352; 0.512134; 
+86306; 11645; 142.754; 0; 4; 6; 11645; 11645; 1; 60.0639; 0.513656; 
+71838; 9894; 142.754; 0; 4; 6; 9894; 9894; 1; 60.034; 0.500674; 
+101343; 13080; 142.754; 0; 4; 6; 13080; 13080; 1; 60.0283; 0.536005; 
+94052; 12592; 142.754; 0; 4; 6; 12592; 12592; 1; 60.0561; 0.510642; 
+85033; 11507; 142.754; 0; 4; 6; 11507; 11507; 1; 60.006; 0.503982; 
+112174; 13709; 142.754; 0; 4; 6; 13709; 13709; 1; 60.0181; 0.555891; 
+97434; 13350; 142.754; 0; 4; 6; 13350; 13350; 1; 60.1; 0.497104; 
+109281; 14029; 142.754; 0; 4; 6; 14029; 14029; 1; 60.0586; 0.527525; 
+120035; 14740; 142.754; 0; 4; 6; 14740; 14740; 1; 60.0428; 0.548866; 
+.

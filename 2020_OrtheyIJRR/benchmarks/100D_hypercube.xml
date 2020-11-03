@@ -1,0 +1,2089 @@
+<?xml version="1.0" ?>
+<benchmark>
+    <name>HyperCube</name>
+    <number_levels>0</number_levels>
+    <levels />
+    <run_count>10</run_count>
+    <max_time>60</max_time>
+    <max_memory>1.024e+06</max_memory>
+    <number_of_planners>33</number_of_planners>
+    <planner>
+        <name>QRRT</name>
+        <run number="1">
+            <time>0.0708823</time>
+            <memory>59.5195</memory>
+            <nodes>10752</nodes>
+            <success>1</success>
+        </run>
+        <run number="2">
+            <time>0.076548</time>
+            <memory>74.5078</memory>
+            <nodes>10776</nodes>
+            <success>1</success>
+        </run>
+        <run number="3">
+            <time>0.0802541</time>
+            <memory>83.8398</memory>
+            <nodes>10774</nodes>
+            <success>1</success>
+        </run>
+        <run number="4">
+            <time>0.0824571</time>
+            <memory>92.6016</memory>
+            <nodes>10863</nodes>
+            <success>1</success>
+        </run>
+        <run number="5">
+            <time>0.0800068</time>
+            <memory>101.625</memory>
+            <nodes>10729</nodes>
+            <success>1</success>
+        </run>
+        <run number="6">
+            <time>0.0833881</time>
+            <memory>110.133</memory>
+            <nodes>10781</nodes>
+            <success>1</success>
+        </run>
+        <run number="7">
+            <time>0.0801434</time>
+            <memory>118.898</memory>
+            <nodes>10799</nodes>
+            <success>1</success>
+        </run>
+        <run number="8">
+            <time>0.0781202</time>
+            <memory>127.664</memory>
+            <nodes>10870</nodes>
+            <success>1</success>
+        </run>
+        <run number="9">
+            <time>0.082666</time>
+            <memory>136.43</memory>
+            <nodes>11022</nodes>
+            <success>1</success>
+        </run>
+        <run number="10">
+            <time>0.0824573</time>
+            <memory>145.711</memory>
+            <nodes>10756</nodes>
+            <success>1</success>
+        </run>
+    </planner>
+    <planner>
+        <name>QRRTStar</name>
+        <run number="1">
+            <time>0.0778754</time>
+            <memory>154.141</memory>
+            <nodes>5852</nodes>
+            <success>1</success>
+        </run>
+        <run number="2">
+            <time>0.0764487</time>
+            <memory>157.551</memory>
+            <nodes>5865</nodes>
+            <success>1</success>
+        </run>
+        <run number="3">
+            <time>0.0762017</time>
+            <memory>162.191</memory>
+            <nodes>5880</nodes>
+            <success>1</success>
+        </run>
+        <run number="4">
+            <time>0.0792631</time>
+            <memory>167.09</memory>
+            <nodes>5957</nodes>
+            <success>1</success>
+        </run>
+        <run number="5">
+            <time>0.0778293</time>
+            <memory>171.988</memory>
+            <nodes>5854</nodes>
+            <success>1</success>
+        </run>
+        <run number="6">
+            <time>0.0805423</time>
+            <memory>176.629</memory>
+            <nodes>5961</nodes>
+            <success>1</success>
+        </run>
+        <run number="7">
+            <time>0.080039</time>
+            <memory>181.527</memory>
+            <nodes>5871</nodes>
+            <success>1</success>
+        </run>
+        <run number="8">
+            <time>0.0812832</time>
+            <memory>186.168</memory>
+            <nodes>5959</nodes>
+            <success>1</success>
+        </run>
+        <run number="9">
+            <time>0.082998</time>
+            <memory>191.066</memory>
+            <nodes>5853</nodes>
+            <success>1</success>
+        </run>
+        <run number="10">
+            <time>0.0812641</time>
+            <memory>195.707</memory>
+            <nodes>5857</nodes>
+            <success>1</success>
+        </run>
+    </planner>
+    <planner>
+        <name>QMP</name>
+        <run number="1">
+            <time>0.0909823</time>
+            <memory>200.738</memory>
+            <nodes>10864</nodes>
+            <success>1</success>
+        </run>
+        <run number="2">
+            <time>0.0902102</time>
+            <memory>214.34</memory>
+            <nodes>10863</nodes>
+            <success>1</success>
+        </run>
+        <run number="3">
+            <time>0.0927926</time>
+            <memory>223.324</memory>
+            <nodes>10770</nodes>
+            <success>1</success>
+        </run>
+        <run number="4">
+            <time>0.0897813</time>
+            <memory>232.312</memory>
+            <nodes>10809</nodes>
+            <success>1</success>
+        </run>
+        <run number="5">
+            <time>0.091627</time>
+            <memory>241.316</memory>
+            <nodes>10791</nodes>
+            <success>1</success>
+        </run>
+        <run number="6">
+            <time>0.0910208</time>
+            <memory>250.324</memory>
+            <nodes>10888</nodes>
+            <success>1</success>
+        </run>
+        <run number="7">
+            <time>0.0909219</time>
+            <memory>259.582</memory>
+            <nodes>10791</nodes>
+            <success>1</success>
+        </run>
+        <run number="8">
+            <time>0.0917229</time>
+            <memory>268.34</memory>
+            <nodes>10805</nodes>
+            <success>1</success>
+        </run>
+        <run number="9">
+            <time>0.0925388</time>
+            <memory>277.348</memory>
+            <nodes>10860</nodes>
+            <success>1</success>
+        </run>
+        <run number="10">
+            <time>0.092502</time>
+            <memory>286.355</memory>
+            <nodes>10853</nodes>
+            <success>1</success>
+        </run>
+    </planner>
+    <planner>
+        <name>QMPStar</name>
+        <run number="1">
+            <time>0.09403</time>
+            <memory>295.754</memory>
+            <nodes>11016</nodes>
+            <success>1</success>
+        </run>
+        <run number="2">
+            <time>0.0919016</time>
+            <memory>306.359</memory>
+            <nodes>10811</nodes>
+            <success>1</success>
+        </run>
+        <run number="3">
+            <time>0.089741</time>
+            <memory>315.348</memory>
+            <nodes>10826</nodes>
+            <success>1</success>
+        </run>
+        <run number="4">
+            <time>0.0917915</time>
+            <memory>324.344</memory>
+            <nodes>10841</nodes>
+            <success>1</success>
+        </run>
+        <run number="5">
+            <time>0.0918426</time>
+            <memory>333.598</memory>
+            <nodes>10750</nodes>
+            <success>1</success>
+        </run>
+        <run number="6">
+            <time>0.0923551</time>
+            <memory>342.613</memory>
+            <nodes>10972</nodes>
+            <success>1</success>
+        </run>
+        <run number="7">
+            <time>0.092019</time>
+            <memory>351.883</memory>
+            <nodes>10811</nodes>
+            <success>1</success>
+        </run>
+        <run number="8">
+            <time>0.0923306</time>
+            <memory>360.879</memory>
+            <nodes>10784</nodes>
+            <success>1</success>
+        </run>
+        <run number="9">
+            <time>0.0921643</time>
+            <memory>370.148</memory>
+            <nodes>10804</nodes>
+            <success>1</success>
+        </run>
+        <run number="10">
+            <time>0.0932751</time>
+            <memory>379.164</memory>
+            <nodes>11000</nodes>
+            <success>1</success>
+        </run>
+    </planner>
+    <planner>
+        <name>SPQR</name>
+        <run number="1">
+            <time>0.301393</time>
+            <memory>388.746</memory>
+            <nodes>182</nodes>
+            <success>1</success>
+        </run>
+        <run number="2">
+            <time>0.574075</time>
+            <memory>388.746</memory>
+            <nodes>371</nodes>
+            <success>1</success>
+        </run>
+        <run number="3">
+            <time>0.367236</time>
+            <memory>388.746</memory>
+            <nodes>180</nodes>
+            <success>1</success>
+        </run>
+        <run number="4">
+            <time>3.11953</time>
+            <memory>396.738</memory>
+            <nodes>564</nodes>
+            <success>1</success>
+        </run>
+        <run number="5">
+            <time>2.29664</time>
+            <memory>396.738</memory>
+            <nodes>295</nodes>
+            <success>1</success>
+        </run>
+        <run number="6">
+            <time>3.00928</time>
+            <memory>396.738</memory>
+            <nodes>495</nodes>
+            <success>1</success>
+        </run>
+        <run number="7">
+            <time>1.71588</time>
+            <memory>396.738</memory>
+            <nodes>479</nodes>
+            <success>1</success>
+        </run>
+        <run number="8">
+            <time>1.16729</time>
+            <memory>396.738</memory>
+            <nodes>300</nodes>
+            <success>1</success>
+        </run>
+        <run number="9">
+            <time>1.68013</time>
+            <memory>396.738</memory>
+            <nodes>490</nodes>
+            <success>1</success>
+        </run>
+        <run number="10">
+            <time>2.22762</time>
+            <memory>399.059</memory>
+            <nodes>568</nodes>
+            <success>1</success>
+        </run>
+    </planner>
+    <planner>
+        <name>RRT</name>
+        <run number="1">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>20</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>RRTConnect</name>
+        <run number="1">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>41</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>41</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>41</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>41</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>41</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>40</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>41</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>40</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>41</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>399.059</memory>
+            <nodes>41</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>RRTstar</name>
+        <run number="1">
+            <time>60</time>
+            <memory>399.547</memory>
+            <nodes>20</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>400.023</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>400.023</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>400.023</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>400.023</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>400.023</memory>
+            <nodes>20</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>400.023</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>400.023</memory>
+            <nodes>20</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>400.023</memory>
+            <nodes>22</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>400.023</memory>
+            <nodes>20</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>RRTXstatic</name>
+        <run number="1">
+            <time>60</time>
+            <memory>400.152</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>400.281</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>400.281</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>400.281</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>400.281</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>400.539</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>400.539</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>400.539</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>400.539</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>400.797</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>LazyRRT</name>
+        <run number="1">
+            <time>60</time>
+            <memory>401.047</memory>
+            <nodes>20</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>401.047</memory>
+            <nodes>19</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>401.047</memory>
+            <nodes>1546</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>401.047</memory>
+            <nodes>2235</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>19</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>1840</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>19</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>1497</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>19</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>889</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>TRRT</name>
+        <run number="1">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>1</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>1</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>1</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>1</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>1</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>1</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>1</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>1</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>1</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>1</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>BiTRRT</name>
+        <run number="1">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>LBTRRT</name>
+        <run number="1">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>401.293</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>401.605</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>RRT#</name>
+        <run number="1">
+            <time>60</time>
+            <memory>401.605</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>401.605</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>401.605</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>401.863</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>401.863</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>401.863</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>401.863</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>402.379</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>402.895</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>403.41</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>InformedRRTstar</name>
+        <run number="1">
+            <time>60</time>
+            <memory>404.441</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>404.957</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>405.473</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>405.988</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>406.246</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>406.762</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>407.277</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>407.793</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>408.309</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>408.824</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>SORRTstar</name>
+        <run number="1">
+            <time>60</time>
+            <memory>409.082</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>409.594</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>410.109</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>410.625</memory>
+            <nodes>20</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>411.141</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>411.656</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>412.172</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>412.688</memory>
+            <nodes>21</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>413.203</memory>
+            <nodes>20</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>413.719</memory>
+            <nodes>20</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>SBL</name>
+        <run number="1">
+            <time>60</time>
+            <memory>420.164</memory>
+            <nodes>7943</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>422.484</memory>
+            <nodes>8402</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>423.258</memory>
+            <nodes>7833</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>423.258</memory>
+            <nodes>9021</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>424.031</memory>
+            <nodes>8561</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>424.031</memory>
+            <nodes>11109</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>426.094</memory>
+            <nodes>7712</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>426.094</memory>
+            <nodes>6892</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>426.094</memory>
+            <nodes>6969</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>424.656</memory>
+            <nodes>7397</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>STRIDE</name>
+        <run number="1">
+            <time>60</time>
+            <memory>424.656</memory>
+            <nodes>5470</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>425.168</memory>
+            <nodes>11457</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>428.004</memory>
+            <nodes>4974</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>428.262</memory>
+            <nodes>14029</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>431.355</memory>
+            <nodes>5834</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>431.355</memory>
+            <nodes>10542</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>431.355</memory>
+            <nodes>3424</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>431.355</memory>
+            <nodes>11261</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>431.355</memory>
+            <nodes>11545</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>431.355</memory>
+            <nodes>8104</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>FMT</name>
+        <run number="1">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>BFMT</name>
+        <run number="1">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>0</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>0</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>0</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>0</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>0</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>0</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>0</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>0</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>0</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>428.129</memory>
+            <nodes>0</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>kBITstar</name>
+        <run number="1">
+            <time>60</time>
+            <memory>428.988</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>429.848</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>429.848</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>429.848</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>429.848</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>429.848</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>429.852</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>429.852</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>429.852</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>429.852</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>kABITstar</name>
+        <run number="1">
+            <time>60</time>
+            <memory>430.359</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>431.391</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>432.68</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>433.969</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>435.516</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>436.805</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>438.352</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>439.898</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>441.188</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>442.734</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>EST</name>
+        <run number="1">
+            <time>60</time>
+            <memory>457.945</memory>
+            <nodes>15117</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>462.586</memory>
+            <nodes>14974</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>462.586</memory>
+            <nodes>14709</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>462.586</memory>
+            <nodes>15494</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>462.844</memory>
+            <nodes>14734</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>462.844</memory>
+            <nodes>14729</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>462.844</memory>
+            <nodes>14787</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>462.844</memory>
+            <nodes>14697</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>462.844</memory>
+            <nodes>14889</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>462.844</memory>
+            <nodes>15014</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>BiEST</name>
+        <run number="1">
+            <time>60</time>
+            <memory>462.844</memory>
+            <nodes>17859</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>466.469</memory>
+            <nodes>18660</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>468.27</memory>
+            <nodes>18622</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>468.27</memory>
+            <nodes>18283</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>468.27</memory>
+            <nodes>17955</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>468.527</memory>
+            <nodes>18364</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>468.527</memory>
+            <nodes>18280</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>468.785</memory>
+            <nodes>18710</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>468.785</memory>
+            <nodes>18447</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>469.043</memory>
+            <nodes>18080</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>ProjEST</name>
+        <run number="1">
+            <time>60</time>
+            <memory>469.043</memory>
+            <nodes>5738</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>469.043</memory>
+            <nodes>4961</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>469.043</memory>
+            <nodes>7192</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>469.043</memory>
+            <nodes>4724</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>469.043</memory>
+            <nodes>6326</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>469.043</memory>
+            <nodes>5225</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>469.043</memory>
+            <nodes>5765</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>469.043</memory>
+            <nodes>7264</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>469.043</memory>
+            <nodes>5115</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>469.043</memory>
+            <nodes>5532</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>KPIECE1</name>
+        <run number="1">
+            <time>60</time>
+            <memory>1570.67</memory>
+            <nodes>1328574</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>1888.77</memory>
+            <nodes>1347245</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>1911.41</memory>
+            <nodes>1391704</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>1959.97</memory>
+            <nodes>1292083</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>1904.16</memory>
+            <nodes>1393837</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>1962.36</memory>
+            <nodes>1314838</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>1924.17</memory>
+            <nodes>1350502</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>1924.17</memory>
+            <nodes>1399967</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>1968.93</memory>
+            <nodes>1333837</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>1968.93</memory>
+            <nodes>1365378</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>BKPIECE1</name>
+        <run number="1">
+            <time>60</time>
+            <memory>1904.16</memory>
+            <nodes>10851</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>1904.16</memory>
+            <nodes>13363</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>1904.16</memory>
+            <nodes>9084</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>1904.16</memory>
+            <nodes>12791</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>1904.16</memory>
+            <nodes>10801</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>1904.16</memory>
+            <nodes>11210</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>1904.16</memory>
+            <nodes>13408</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>1904.16</memory>
+            <nodes>13874</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>1904.16</memory>
+            <nodes>8951</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>1904.16</memory>
+            <nodes>9601</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>LBKPIECE1</name>
+        <run number="1">
+            <time>60</time>
+            <memory>1905.18</memory>
+            <nodes>36151</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>1905.44</memory>
+            <nodes>46798</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>1905.44</memory>
+            <nodes>167758</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>1905.44</memory>
+            <nodes>946589</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>1905.44</memory>
+            <nodes>51135</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>1905.44</memory>
+            <nodes>56957</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>1905.44</memory>
+            <nodes>1072198</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>22229</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>26278</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>22580</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>PRM</name>
+        <run number="1">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>40495</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>38916</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>39534</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>40461</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>39129</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>36800</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>37080</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>39759</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>39360</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>36490</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>PRMstar</name>
+        <run number="1">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>26408</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>24872</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>25759</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>26514</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>25921</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>24699</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>25300</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>24489</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>25265</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>26373</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>LazyPRMstar</name>
+        <run number="1">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>SPARS</name>
+        <run number="1">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="2">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="3">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="4">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="5">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="6">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="7">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="8">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="9">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+        <run number="10">
+            <time>60</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>0</success>
+        </run>
+    </planner>
+    <planner>
+        <name>SPARStwo</name>
+        <run number="1">
+            <time>0.202488</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>1</success>
+        </run>
+        <run number="2">
+            <time>0.200368</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>1</success>
+        </run>
+        <run number="3">
+            <time>0.202382</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>1</success>
+        </run>
+        <run number="4">
+            <time>0.202291</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>1</success>
+        </run>
+        <run number="5">
+            <time>0.200535</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>1</success>
+        </run>
+        <run number="6">
+            <time>0.20274</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>1</success>
+        </run>
+        <run number="7">
+            <time>0.200272</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>1</success>
+        </run>
+        <run number="8">
+            <time>0.201852</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>1</success>
+        </run>
+        <run number="9">
+            <time>0.200147</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>1</success>
+        </run>
+        <run number="10">
+            <time>0.199159</time>
+            <memory>1915.95</memory>
+            <nodes>2</nodes>
+            <success>1</success>
+        </run>
+    </planner>
+</benchmark>
